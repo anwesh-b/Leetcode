@@ -49,6 +49,14 @@ func findAnagrams(s string, p string) []int {
 	return res
 }
 
+/**
+ * Other approach 1
+ * Sort the comparing string
+ * Sort the string from i to i+len(p)
+ * Compare the string
+ * As strings are sorted, they need to be same
+ */
+
 func Q_438() {
 	fmt.Println(findAnagrams("cbaebabacd", "abc"))
 	fmt.Println(findAnagrams("abab", "ab"))

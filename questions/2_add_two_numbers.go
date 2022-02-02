@@ -93,6 +93,5 @@ func Q_2() {
 
 	res := addTwoNumbers(&l1, &l2)
 
-	fmt.Println("\n\n")
 	fmt.Println(res.Next.Next.Next.Next.Next.Next.Next.Next.Val)
 }
